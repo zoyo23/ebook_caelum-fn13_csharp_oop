@@ -19,6 +19,8 @@ namespace _4._3
 
         //TODO: Efetuar a implementação do exercício 6 do capítulo 4
         public static void Executar() => CalculaFatorial();
+        static string tituloJanela = "Capítulo 4 - Exercicio 6 - Calculo Fatorial";
+
         private static void CalculaFatorial()
         {
 

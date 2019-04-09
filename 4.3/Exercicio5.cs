@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Windows.Forms;
 
 namespace _4._3
 {
@@ -9,6 +8,7 @@ namespace _4._3
         //por 4 entre 0 e 30.
 
         public static void Executar() => ImprimeDivisiveisPor3();
+        static string tituloJanela = "Capítulo 4 - Exercicio 5 - Lista Números Divisíveis por 3 e 4";
 
         private static void ImprimeDivisiveisPor3()
         {
@@ -20,7 +20,7 @@ namespace _4._3
                     listaDivisiveis.Add(contador);
                 }
             }
-            MessageBox.Show($"{string.Join(", ", listaDivisiveis)}", "Capítulo 4 - Exercicio 5 - Lista Números Divisíveis por 3 e 4");
+            Util.MessageBoxUtil.ExibirMessageBox($"{string.Join(", ", listaDivisiveis)}", tituloJanela);
         }
     }
 }

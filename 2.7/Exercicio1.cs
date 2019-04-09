@@ -1,6 +1,4 @@
-﻿using System.Windows.Forms;
-
-namespace _2._7
+﻿namespace _2._7
 {
     public class Exercicio1
     {
@@ -12,10 +10,10 @@ namespace _2._7
         //Caelum
         //Nenhuma das opções
         public static void Executar() => ShowMessageBox();
-
+        static string tituloJanela = "Capítulo 2 - Exercicio 1 - Primeiro Exercício";
         private static void ShowMessageBox()
         {
-            MessageBox.Show("Curso de c# da Caelum", "Capítulo 2 - Exercicio 1 - Primeiro Exercício");
+            Util.MessageBoxUtil.ExibirMessageBox("Curso de c# da Caelum", tituloJanela);
         }
 
     }

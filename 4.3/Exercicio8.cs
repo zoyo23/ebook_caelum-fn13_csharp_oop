@@ -12,6 +12,8 @@ namespace _4._3
 
         //TODO: Efetuar a implementação do exercício 8 do capítulo 4
         public static void Executar() => ImprimeComForEncadeado();
+        static string tituloJanela = "Capítulo 4 - Exercicio 8 - For Encadeado";
+
         private static void ImprimeComForEncadeado()
         {
 

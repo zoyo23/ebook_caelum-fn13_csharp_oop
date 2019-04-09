@@ -1,4 +1,5 @@
 ﻿using System.Windows.Forms;
+using Util;
 
 namespace _4._3
 {
@@ -17,6 +18,7 @@ namespace _4._3
         //512
 
         public static void Executar() => VerificaLacoRepeticao();
+        static string tituloJanela = "Capítulo 4 - Exercicio 1 - Resultado Multiplicação Laço For";
 
         private static void VerificaLacoRepeticao()
         {
@@ -25,7 +27,7 @@ namespace _4._3
             {
                 total = total * 2;
             }
-            MessageBox.Show($"O total é: {total}", "Capítulo 4 - Exercicio 1 - Resultado Multiplicação Laço For");
+            Util.MessageBoxUtil.ExibirMessageBox($"O total é: {total}", tituloJanela);
         }
     }
 }

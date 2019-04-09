@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{600D8C21-3D73-4E74-846C-E8ADAF7B2996}</ProjectGuid>
+    <ProjectGuid>{CF4498D2-F35D-43B2-A86D-86F7F70E9E68}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_3._5</RootNamespace>
-    <AssemblyName>3.5</AssemblyName>
+    <RootNamespace>Util</RootNamespace>
+    <AssemblyName>Util</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -35,23 +35,15 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Exercicio1.cs" />
-    <Compile Include="Exercicio3.cs" />
-    <Compile Include="Exercicio4.cs" />
-    <Compile Include="Exercicios.cs" />
-    <Compile Include="Exercicio2.cs" />
+    <Compile Include="MessageBoxUtil.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Util.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Util\Util.csproj">
-      <Project>{CF4498D2-F35D-43B2-A86D-86F7F70E9E68}</Project>
-      <Name>Util</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

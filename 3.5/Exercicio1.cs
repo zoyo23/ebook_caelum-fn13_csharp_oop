@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using System.Windows.Forms;
 
 namespace _3._5
 {
@@ -12,12 +11,10 @@ namespace _3._5
         //Em seguida, pegue essas 3 idades e calcule a média delas.Exiba o resultado em um MessageBox.
 
         public static void Executar(IEnumerable<int> idades) => CalcularMediaDeIdades(idades);
-
+        static string tituloJanela = "Capítulo 3 - Exercicio 1 - Calculo das médias";
         private static void CalcularMediaDeIdades(IEnumerable<int> idades)
         {
-            MessageBox.Show($"Média das idades: {idades.Average(idade => idade)}", "Capítulo 3 - Exercicio 1 - Calculo das médias");
+            Util.MessageBoxUtil.ExibirMessageBox($"Média das idades: {idades.Average(idade => idade)}", tituloJanela);
         }
-
-
     }
 }

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{600D8C21-3D73-4E74-846C-E8ADAF7B2996}</ProjectGuid>
+    <ProjectGuid>{313A6B79-0380-46A0-A781-AA0EB7CE536D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_3._5</RootNamespace>
-    <AssemblyName>3.5</AssemblyName>
+    <RootNamespace>_4._3_Opcional</RootNamespace>
+    <AssemblyName>4.3 Opcional</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -35,13 +35,16 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Exercicio1.cs" />
+    <Compile Include="Exercicio2.cs" />
     <Compile Include="Exercicio3.cs" />
     <Compile Include="Exercicio4.cs" />
+    <Compile Include="Exercicio5.cs" />
+    <Compile Include="Exercicio6.cs" />
     <Compile Include="Exercicios.cs" />
-    <Compile Include="Exercicio2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -49,7 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Util\Util.csproj">
-      <Project>{CF4498D2-F35D-43B2-A86D-86F7F70E9E68}</Project>
+      <Project>{cf4498d2-f35d-43b2-a86d-86f7f70e9e68}</Project>
       <Name>Util</Name>
     </ProjectReference>
   </ItemGroup>

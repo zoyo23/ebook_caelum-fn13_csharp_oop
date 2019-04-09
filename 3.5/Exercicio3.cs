@@ -1,6 +1,4 @@
-﻿using System.Windows.Forms;
-
-namespace _3._5
+﻿namespace _3._5
 {
     public class Exercicio3
     {
@@ -15,12 +13,12 @@ namespace _3._5
         //** 3 **
 
         public static void Executar() => ConvertePiEmNumeroInteiro();
-
+        static string tituloJanela = "Capítulo 3 - Exercicio 3 - Valor de pi Inteiro";
         private static void ConvertePiEmNumeroInteiro()
         {
             double pi = 3.14;
             int piQuebrado = (int)pi;
-            MessageBox.Show("piQuebrado = " + piQuebrado, "Capítulo 3 - Exercicio 3 - Valor de pi Inteiro");
+            Util.MessageBoxUtil.ExibirMessageBox($"piQuebrado = {piQuebrado}", tituloJanela);
         }
     }
 }

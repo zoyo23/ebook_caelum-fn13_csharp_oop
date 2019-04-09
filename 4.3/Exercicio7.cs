@@ -10,6 +10,8 @@ namespace _4._3
 
         //TODO: Efetuar a implementação do exercício 7 do capítulo 4
         public static void Executar() => ImprimeSequenciaFibonacci();
+        static string tituloJanela = "Capítulo 4 - Exercicio 7 - Série de Fibonacci";
+
         private static void ImprimeSequenciaFibonacci()
         {
 

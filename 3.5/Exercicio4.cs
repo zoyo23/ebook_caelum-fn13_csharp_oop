@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Windows.Forms;
 
 namespace _3._5
 {
@@ -17,6 +16,7 @@ namespace _3._5
         //calcular a raiz quadrada de números negativos.
 
         public static void Executar(int Valor1, int Valor2, int Valor3) => CalculaBhaskara(Valor1, Valor2, Valor3);
+        static string tituloJanela = "Capítulo 3 - Exercicio 4 - Resultado dos calculos";
 
         private static void CalculaBhaskara(int Valor1, int Valor2, int Valor3)
         {
@@ -25,11 +25,9 @@ namespace _3._5
             a1 = (-Valor2 + Math.Sqrt(delta)) / (2 * Valor1);
             a2 = (-Valor2 - Math.Sqrt(delta)) / (2 * Valor1);
 
-
-            MessageBox.Show($"Resultado: \n" +
+            Util.MessageBoxUtil.ExibirMessageBox($"Resultado: \n" +
                             $"a1: {a1} \n" +
-                            $"a2: {a2}",
-                            "Capítulo 3 - Exercicio 4 - Resultado dos calculos");
+                            $"a2: {a2}", tituloJanela);
         }
 
         private static double CalculaDelta(int a, int b, int c)
