@@ -1,5 +1,4 @@
-﻿using System;
-namespace _5._4
+﻿namespace _5._4
 {
     public class Exercicio7
     {
@@ -14,7 +13,12 @@ namespace _5._4
 
         private static void ImprimeSequenciaFibonacci()
         {
+            var mensagem = string.Empty;
+            var sequenciaFibonacci = 0;
 
+
+
+            Util.MessageBoxUtil.ExibirMessageBox(mensagem, tituloJanela);
         }
     }
 }

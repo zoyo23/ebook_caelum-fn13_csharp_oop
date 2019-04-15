@@ -1,5 +1,4 @@
-﻿using System;
-namespace _5._4
+﻿namespace _5._4
 {
     public class Exercicio8
     {
@@ -10,13 +9,27 @@ namespace _5._4
         //4 8 12 16
         //n n*2 n*3 .... n* n
 
-        //TODO: Efetuar a implementação do exercício 8 do Capítulo 5
         public static void Executar() => ImprimeComForEncadeado();
         static string tituloJanela = "Capítulo 5 - Exercicio 8 - For Encadeado";
 
+
         private static void ImprimeComForEncadeado()
         {
+            var tamanhoDaTabela = 10;
+            var mensagem = string.Empty;
 
+            for (int contadorLinhas = 1; contadorLinhas <= tamanhoDaTabela; contadorLinhas++)
+            {
+                mensagem = string.Concat(mensagem, $"{contadorLinhas}   ");
+                for (int contadorColunas = 1; contadorColunas < contadorLinhas; contadorColunas++)
+                {
+                    mensagem = string.Concat(mensagem, $"{contadorLinhas + (contadorLinhas * contadorColunas)}   ");
+                }
+
+                mensagem = string.Concat(mensagem, $"\n");
+            }
+
+            Util.MessageBoxUtil.ExibirMessageBox(mensagem, tituloJanela);
         }
     }
 }

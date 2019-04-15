@@ -1,5 +1,4 @@
-﻿using System;
-namespace _5._4
+﻿namespace _5._4
 {
     public class Exercicio6
     {
@@ -17,13 +16,38 @@ namespace _5._4
         //{
         //}
 
-        //TODO: Efetuar a implementação do exercício 6 do Capítulo 5
-        public static void Executar() => CalculaFatorial();
+        public static void Executar() => ExecutaExercicio();
         static string tituloJanela = "Capítulo 5 - Exercicio 6 - Calculo Fatorial";
 
-        private static void CalculaFatorial()
+        private static void ExecutaExercicio()
         {
+            var mensagem = string.Empty;
+            for (int numeroParaCalculoFatorial = 1; numeroParaCalculoFatorial <= 10; numeroParaCalculoFatorial++)
+            {
+                var resultadoCalculoFatorial = CalculaFatorial(numeroParaCalculoFatorial);
+                mensagem = string.Concat(mensagem, $"O fatorial de {numeroParaCalculoFatorial} é ({numeroParaCalculoFatorial - 1}!)*{numeroParaCalculoFatorial} = {resultadoCalculoFatorial}\n");
+            }
 
+            Util.MessageBoxUtil.ExibirMessageBox(mensagem, tituloJanela);
+        }
+
+        //TODO: Efetuar a implementação de método recursivo
+        private static int CalculaFatorial(int numeroParaCalculo)
+        {
+            var resultadoCalculoFatorial = 1;
+
+            if (numeroParaCalculo == 0)
+            {
+                resultadoCalculoFatorial = 1;
+                return resultadoCalculoFatorial;
+            }
+
+            for (var contadorAuxilar = numeroParaCalculo; contadorAuxilar >= 1; contadorAuxilar--)
+            {
+                resultadoCalculoFatorial *= contadorAuxilar;
+            }
+
+            return resultadoCalculoFatorial;
         }
     }
 }
