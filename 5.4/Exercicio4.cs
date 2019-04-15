@@ -1,4 +1,4 @@
-﻿namespace _4._3
+﻿namespace _5._4
 {
     public class Exercicio4
     {
@@ -7,7 +7,7 @@
         //Qual o resultado?
 
         public static void Executar() => CalculaSomaNumerosNaoMultiplosDe3();
-        static string tituloJanela = "Capítulo 4 - Exercicio 4 - Calcular Soma dos Não Multiplos de 3";
+        static string tituloJanela = "Capítulo 5 - Exercicio 4 - Calcular Soma dos Não Multiplos de 3";
 
         private static void CalculaSomaNumerosNaoMultiplosDe3()
         {

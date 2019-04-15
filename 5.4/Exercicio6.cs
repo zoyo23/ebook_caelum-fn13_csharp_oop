@@ -1,5 +1,5 @@
 ﻿using System;
-namespace _4._3
+namespace _5._4
 {
     public class Exercicio6
     {
@@ -17,9 +17,9 @@ namespace _4._3
         //{
         //}
 
-        //TODO: Efetuar a implementação do exercício 6 do capítulo 4
+        //TODO: Efetuar a implementação do exercício 6 do Capítulo 5
         public static void Executar() => CalculaFatorial();
-        static string tituloJanela = "Capítulo 4 - Exercicio 6 - Calculo Fatorial";
+        static string tituloJanela = "Capítulo 5 - Exercicio 6 - Calculo Fatorial";
 
         private static void CalculaFatorial()
         {

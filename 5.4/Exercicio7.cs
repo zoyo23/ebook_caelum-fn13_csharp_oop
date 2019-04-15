@@ -1,5 +1,5 @@
 ﻿using System;
-namespace _4._3
+namespace _5._4
 {
     public class Exercicio7
     {
@@ -8,9 +8,9 @@ namespace _4._3
         //primeiro elemento vale 0, o segundo vale 1, daí por diante, o n-ésimo elemento vale o(n-1)-ésimo
         //elemento somado ao(n-2)-ésimo elemento(ex: 8 = 5 + 3).
 
-        //TODO: Efetuar a implementação do exercício 7 do capítulo 4
+        //TODO: Efetuar a implementação do exercício 7 do Capítulo 5
         public static void Executar() => ImprimeSequenciaFibonacci();
-        static string tituloJanela = "Capítulo 4 - Exercicio 7 - Série de Fibonacci";
+        static string tituloJanela = "Capítulo 5 - Exercicio 7 - Série de Fibonacci";
 
         private static void ImprimeSequenciaFibonacci()
         {

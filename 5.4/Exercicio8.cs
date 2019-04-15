@@ -1,5 +1,5 @@
 ﻿using System;
-namespace _4._3
+namespace _5._4
 {
     public class Exercicio8
     {
@@ -10,9 +10,9 @@ namespace _4._3
         //4 8 12 16
         //n n*2 n*3 .... n* n
 
-        //TODO: Efetuar a implementação do exercício 8 do capítulo 4
+        //TODO: Efetuar a implementação do exercício 8 do Capítulo 5
         public static void Executar() => ImprimeComForEncadeado();
-        static string tituloJanela = "Capítulo 4 - Exercicio 8 - For Encadeado";
+        static string tituloJanela = "Capítulo 5 - Exercicio 8 - For Encadeado";
 
         private static void ImprimeComForEncadeado()
         {

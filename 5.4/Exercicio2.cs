@@ -1,11 +1,11 @@
-﻿namespace _4._3
+﻿namespace _5._4
 {
     public class Exercicio2
     {
         //2. Faça um programa em C# que imprima a soma dos números de 1 até 1000.
 
         public static void Executar() => ImprimirSomaAteMil();
-        static string tituloJanela = "Capítulo 4 - Exercicio 2 - Números até 1000";
+        static string tituloJanela = "Capítulo 5 - Exercicio 2 - Números até 1000";
 
 
         private static void ImprimirSomaAteMil()
