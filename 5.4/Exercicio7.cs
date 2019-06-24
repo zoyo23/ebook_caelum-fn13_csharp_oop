@@ -14,9 +14,20 @@
         private static void ImprimeSequenciaFibonacci()
         {
             var mensagem = string.Empty;
-            var sequenciaFibonacci = 0;
+            var numeroAnterior = 0;
+            var numeroSeguinte = 1;
+            var auxiliar = 0;
 
+            mensagem = string.Concat(mensagem, $"{numeroAnterior} ");
+            mensagem = string.Concat(mensagem, $"{numeroSeguinte} ");
 
+            do
+            {
+                auxiliar = numeroSeguinte + numeroAnterior;
+                numeroAnterior = numeroSeguinte;
+                numeroSeguinte = auxiliar;
+                mensagem = string.Concat(mensagem, $"{auxiliar} ");
+            } while (auxiliar < 100);
 
             Util.MessageBoxUtil.ExibirMessageBox(mensagem, tituloJanela);
         }

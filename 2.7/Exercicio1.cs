@@ -13,7 +13,19 @@
         static string tituloJanela = "Capítulo 2 - Exercicio 1 - Primeiro Exercício";
         private static void ShowMessageBox()
         {
-            Util.MessageBoxUtil.ExibirMessageBox("Curso de c# da Caelum", tituloJanela);
+
+            var mensagem = 
+                @"Qual a mensagem que será exibida na caixa de texto criada pelo seguinte código?
+            MessageBox.Show('Curso de C# da Caelum');
+
+            Hello World
+            ** Curso de C# da Caelum **
+            Olá Mundo
+            Caelum
+            Nenhuma das opções";
+
+
+            Util.MessageBoxUtil.ExibirMessageBox(mensagem, tituloJanela);
         }
 
     }

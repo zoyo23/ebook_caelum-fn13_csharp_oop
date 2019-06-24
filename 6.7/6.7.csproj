@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CF4498D2-F35D-43B2-A86D-86F7F70E9E68}</ProjectGuid>
+    <ProjectGuid>{F78810AB-12B9-4261-AE39-16807CE7C411}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Util</RootNamespace>
-    <AssemblyName>Util</AssemblyName>
+    <RootNamespace>_6._7</RootNamespace>
+    <AssemblyName>6.7</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -38,11 +38,32 @@
     <Reference Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MessageBoxUtil.cs" />
+    <Compile Include="Conta.cs" />
+    <Compile Include="Exercicio1.cs" />
+    <Compile Include="Exercicio10.cs" />
+    <Compile Include="Exercicio11.cs" />
+    <Compile Include="Exercicio12.cs" />
+    <Compile Include="Exercicio13.cs" />
+    <Compile Include="Exercicio14.cs" />
+    <Compile Include="Exercicio2.cs" />
+    <Compile Include="Exercicio3.cs" />
+    <Compile Include="Exercicio4.cs" />
+    <Compile Include="Exercicio5.cs" />
+    <Compile Include="Exercicio6.cs" />
+    <Compile Include="Exercicio7.cs" />
+    <Compile Include="Exercicio8.cs" />
+    <Compile Include="Exercicio9.cs" />
+    <Compile Include="Exercicios.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Util\Util.csproj">
+      <Project>{CF4498D2-F35D-43B2-A86D-86F7F70E9E68}</Project>
+      <Name>Util</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

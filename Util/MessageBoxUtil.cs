@@ -4,6 +4,8 @@ namespace Util
 {
     public class MessageBoxUtil
     {
+
+        public static void Main() { }
         public static void ExibirMessageBox(string mensagem, string tituloJanela)
         {
             MessageBox.Show(mensagem, tituloJanela);

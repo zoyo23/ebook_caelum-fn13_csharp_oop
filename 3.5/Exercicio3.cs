@@ -19,6 +19,24 @@
             double pi = 3.14;
             int piQuebrado = (int)pi;
             Util.MessageBoxUtil.ExibirMessageBox($"piQuebrado = {piQuebrado}", tituloJanela);
+            InformarRespostaCorreta();
+        }
+
+        private static void InformarRespostaCorreta()
+        {
+            var mensagem = @"
+        Execute o trecho de código a seguir.O que acontece com ele?
+        double pi = 3.14;
+        int piQuebrado = (int)pi;
+
+        MessageBox.Show('piQuebrado = ' + piQuebrado);
+        Repare o(int) . Estamos 'forçando' a conversão do double para um inteiro.
+        Qual o valor de piQuebrado nesse caso ?
+        3.14
+        0
+        ** 3 **";
+
+            Util.MessageBoxUtil.ExibirMessageBox(mensagem, tituloJanela);
         }
     }
 }

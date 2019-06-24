@@ -36,6 +36,32 @@
             {
                 Util.MessageBoxUtil.ExibirMessageBox("Saldo Insuficiente", tituloJanela);
             }
+
+            informarRespostaCorreta();
+        }
+
+        private static void informarRespostaCorreta()
+        {
+            var mensagem = @"Qual é a mensagem e o valor da variável saldo após a execução do seguinte código?
+            double saldo = 100.0;
+            double valorSaque = 10.0;
+            if (saldo >= valorSaque)
+            {
+                saldo -= valorSaque;
+                MessageBox.Show('Saque realizado com sucesso');
+            }
+            else
+            {
+                MessageBox.Show('Saldo Insuficiente');
+            }
+
+            ** mensagem: Saque realizado com sucesso; saldo: 90.0 **
+            mensagem: Saldo Insuficiente; saldo 90.0
+            mensagem: Saque realizado com sucesso; saldo: 100.0
+            mensagem: Saldo Insuficiente; saldo 100.0
+            mensagem: Saque realizado com sucesso; saldo: 10.0";
+
+            Util.MessageBoxUtil.ExibirMessageBox(mensagem, tituloJanela);
         }
     }
 }
