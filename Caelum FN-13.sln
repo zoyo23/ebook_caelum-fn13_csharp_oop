@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cap 2", "Cap 2", "{4612F851-8CC4-4DF7-89CB-27999702C33A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cap 2 - O Que é CSharp e DotNet", "Cap 2 - O Que é CSharp e DotNet", "{4612F851-8CC4-4DF7-89CB-27999702C33A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.7", "2.7\2.7.csproj", "{F26D8555-7EF9-4347-9F2E-5664B1884B27}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cap 3", "Cap 3", "{B91FB483-0772-4810-B349-488561BE7112}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cap 3 - Variáveis e tipos primitivos", "Cap 3 - Variáveis e tipos primitivos", "{B91FB483-0772-4810-B349-488561BE7112}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.5", "3.5\3.5.csproj", "{600D8C21-3D73-4E74-846C-E8ADAF7B2996}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cap 4", "Cap 4", "{376AE22E-C766-4CA8-9CB8-FD0741A1BAD9}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cap 4 - Estrutura de controle", "Cap 4 - Estrutura de controle", "{376AE22E-C766-4CA8-9CB8-FD0741A1BAD9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.4", "5.4\5.4.csproj", "{1E8B7087-320A-45A8-98C3-379F6ABF13A6}"
 EndProject
@@ -21,9 +21,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Util", "Util", "{CF6A5745-F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Util", "Util\Util.csproj", "{CF4498D2-F35D-43B2-A86D-86F7F70E9E68}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cap5", "Cap5", "{5AA1C58C-0C9A-4A9D-B531-33BA23FA8D51}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cap 5 - Estruturas de repetição", "Cap 5 - Estruturas de repetição", "{5AA1C58C-0C9A-4A9D-B531-33BA23FA8D51}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cap6", "Cap6", "{5ADBABCB-A77F-42C7-86BE-4F8B2001DE68}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cap 6 - Classes e objetos", "Cap 6 - Classes e objetos", "{5ADBABCB-A77F-42C7-86BE-4F8B2001DE68}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.7", "6.7\6.7.csproj", "{F78810AB-12B9-4261-AE39-16807CE7C411}"
 EndProject
